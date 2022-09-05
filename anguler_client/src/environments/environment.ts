@@ -4,16 +4,16 @@
  
 export const environment = {
   uiRole:"logs", //domain,logs
-  applicationName: "Logs Monitoring",
-  applicationDomainName: "Domain WhiteList",
+  applicationName: "ReeportJio",
+  applicationDomainName: "Project",
 
-  appTitle:"ONDC",
+  appTitle:"ReeportJio",
   hmr: false,
   // apiUrl: 'https://pilot-gateway-1.beckn.nsdl.co.in/logs-monitoring-api',
   apiUrl: 'http://localhost:9003/site-api', 
   production:true,
   env: 'dev', 
-  webApiRedirectURL:'http://localhost:4200/',
+  webApiRedirectURL:'http://127.0.0.1:4200/',
   urlOauth2:'http://app.fossgentechnologies.com/auth/realms/site', 
    logoURL:'assets/images/logo/ondc.png', 
 /* urlOauth2:'https://app.qnopy.com/reactoauth2', */
